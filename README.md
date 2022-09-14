@@ -10,9 +10,16 @@ A simple bank implementation in GO
 
 
 ## Run development environment
+Install locally:
+- Docker
+- [golang-migrate](https://github.com/golang-migrate/migrate)
+
+
 
 ### Start Postgres database in docker container
 `$ make postgres`
 
 ### Start Postgres shell
 `$ docker exec -it space-bank-db psql`
+
+
