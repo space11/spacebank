@@ -7,3 +7,12 @@ A simple bank implementation in GO
   - Create an account entry for each change
 - Money transfer transaction
   - Perform money transfer between 2 accounts consistently within a transaction
+
+
+## Run development environment
+
+### Start Postgres database in docker container
+`$ make postgres`
+
+### Start Postgres shell
+`$ docker exec -it space-bank-db psql`
